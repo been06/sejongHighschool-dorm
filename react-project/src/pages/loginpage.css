@@ -104,7 +104,7 @@ h1{
         font-weight:bolder;
         cursor : pointer;
         &:hover{
-            opacity : 1;
+            opacity : 1 !important;
         }
     }
     .user-login{
