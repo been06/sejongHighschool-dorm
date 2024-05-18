@@ -1,0 +1,65 @@
+h2{
+    font-size:  60px;
+    text-align: center;
+}
+div{
+    font-size: 40px;
+    text-align: center;
+}
+.go{
+    position: relative;
+    top: 20px;
+    right: 13%;
+    transform : translate(-50%, -50%);
+    cursor: pointer;
+    
+}
+.sleep{
+    position: relative;
+    top: 20px;
+    left: -11%;
+    transform : translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.name{
+    margin:50px auto;
+    display:block;
+    position:relative;
+    width: 700px;
+    height:50px;
+    font-size:30px;
+    text-align: left;
+    border-radius:10px;
+
+}
+.reason{
+    font-size:30px;
+    margin:50px auto;
+    display:block;
+    position:relative;
+    width: 700px;
+    height:50px;
+    text-align: left;
+    border-radius:10px;
+}
+.period{
+    margin:50px auto;
+    display:block;
+    position:relative;
+    width: 700px;
+    height:50px;
+    font-size:30px;
+    text-align: left;
+    border-radius:10px;
+
+
+}
+.submit{
+    font-size:30px;
+    margin:50px auto;
+    display:block;
+    position:relative;
+    width: 300px;
+    border-radius: 10px;
+}
