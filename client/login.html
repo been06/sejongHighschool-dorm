@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>로그인 페이지</title>
+    <link rel="stylesheet" href="./loginpage.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> -->
+  </head>
+
+  <body>
+    <main class="main-login-page">
+      <h1 class="login-header">LOGIN</h1>
+      <!-- <img class = "animate__animated animate__bounce sjlogo firstlogo" id = "sjhslogo1"src="sejong_highschool_logo.jpg" >   -->
+      <!-- <img class = "sjlogo secondlogo" id = "sjhslogo2"src="sejong_highschool_logo.jpg" > -->
+      <div class="student-teacher">
+        <span class="student-login" id="studentTextclicker">Student</span>
+        <span class="teacher-login" id="teacherTextclicker">Teacher</span>
+      </div>
+
+      <form action="link" method="post">
+        <!--ID넣는 곳-->
+        <div class="blocks student-id">
+          <input type="text" placeholder="Student ID" name="StudentID" class="input" id="studentjs" />
+        </div>
+        <div class="blocks teacher-id">
+          <input type="text" placeholder="Teacher ID" name="TeacherID" class="input" id="teacherjs" />
+        </div>
+        <!--비번 넣는 곳-->
+        <div class="blocks">
+          <input type="password" placeholder="Password" name="password" class="input pw" id="student-password" />
+        </div>
+        <!--LOGIN버튼-->
+        <input type="submit" value="Login" class="login-button" />
+      </form>
+      <script src="main.js"></script>
+    </main>
+  </body>
+</html>
