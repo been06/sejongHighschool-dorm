@@ -1,0 +1,107 @@
+html {
+  height: 100%;
+  user-select: none;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+h1 {
+  color: #148cff;
+  font-size: 48px;
+  letter-spacing: -3px;
+  text-align: center;
+  margin: 120px 0 80px 0;
+  transition: 0.2s linear;
+}
+
+form {
+  width: 100%;
+  max-width: 500px;
+  margin: 40px auto 10px;
+
+  .blocks {
+    margin: 20px auto;
+    display: block;
+    position: relative;
+  }
+
+  input {
+    display: block;
+    width: 90%;
+    max-width: 680px;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 8px;
+    border: none;
+    background: #f3f3f3;
+    padding: 0 0 0 15px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    &:active {
+      outline: none;
+      border: none;
+      color: #0f132a;
+    }
+  }
+
+  .login-button {
+    margin: 20px auto;
+    display: block;
+    position: relative;
+    background: #148cff;
+    color: white;
+    display: block;
+    width: 93%;
+    max-width: 500px;
+    height: 50px;
+    border-radius: 8px;
+    margin: 0 auto;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0 5px 22px #148cff;
+    transition: 0.2s linear;
+
+    &:hover {
+      box-shadow: 0 0 0 #148cff;
+    }
+  }
+}
+
+.main-login-page {
+  display: block;
+  max-width: 680px;
+  width: 80%;
+  margin: 120px auto;
+}
+
+.student-teacher {
+  display: block;
+
+  list-style-type: none;
+  margin: 0 0 0 120px;
+  span {
+    text-decoration-line: none;
+    color: #0f132a;
+    text-decoration: none;
+    font-weight: bolder;
+    cursor: pointer;
+    &:hover {
+      opacity: 1 !important;
+    }
+  }
+  .student-login {
+    margin: 0 40px 0 0;
+  }
+  .teacher-login {
+    margin: 0 0 0 40px;
+  }
+}
