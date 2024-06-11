@@ -2,6 +2,10 @@ let studentBtn = document.getElementById('studentTextclicker');
 let teacherBtn = document.getElementById('teacherTextclicker');
 let studentId = document.getElementById('studentjs');
 let teacherId = document.getElementById('teacherjs');
+
+
+let loginHeader = document.getElementById('changeloginheader');
+let loginBtn = document.getElementById('changeloginbtn');
 // let sjlogo1 = document.getElementById('sjhslogo1');
 // let sjlogo2 = document.getElementById('sjhslogo2');
 
@@ -23,6 +27,15 @@ function editcss(X, Y, x, y) {
 studentBtn.addEventListener('click', function () {
   // while(!userbtn.addEventListener('click')){
   editcss(studentId, teacherId, studentBtn, teacherBtn);
+  loginHeader.style.color = '#148cff';
+  loginBtn.style.background = '#148cff';
+  loginBtn.style.boxShadow = '0 5px 22px #148cff';
+  loginBtn.addEventListener('mouseenter', function () {
+    loginBtn.style.boxShadow = '0 0 0 #148cff';
+  });
+  loginBtn.addEventListener('mouseleave', function () {
+    loginBtn.style.boxShadow = '0 5px 22px #148cff';
+  });
   // }
   // sjlogo2.style.animationPlayState = "running";
   // setTimeout(function(){
@@ -33,6 +46,16 @@ studentBtn.addEventListener('click', function () {
 teacherBtn.addEventListener('click', function () {
   // while(!adminbtn.addEventListener('click')){
   editcss(teacherId, studentId, teacherBtn, studentBtn);
+  loginHeader.style.color = '#FF4646';
+  loginBtn.style.background = '#FF4646';
+  loginBtn.style.boxShadow = '0 5px 22px #FF4646';
+  
+  loginBtn.addEventListener('mouseenter', function () {
+    loginBtn.style.boxShadow = '0 0 0 #FF4646';
+  });
+  loginBtn.addEventListener('mouseleave', function () {
+    loginBtn.style.boxShadow = '0 5px 22px #FF4646';
+  });
   // }
   // editcss(adminid, userid, adminbtn, userbtn);
   // sjlogo1.style.animationPlayState = "running";
