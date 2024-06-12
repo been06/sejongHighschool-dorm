@@ -7,6 +7,12 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Noto+Serif+KR:wght@200..900&display=swap" rel="stylesheet">
+        <script>
+            function hideRow(button) {
+                var row = button.parentNode.parentNode;
+                row.style.display = 'none';
+            }
+        </script>
     </head>
     
     <body>
@@ -91,12 +97,12 @@
                             08:00
                         </td>
                         <td>
-                            <input type="button" value="허락">
+                            <input type="button" value="허락" onclick="hideRow(this)">
                                     
                             </button>
                         </td>
                         <td>
-                            <input type="button" value="거절">
+                            <input type="button" value="거절" onclick="hideRow(this)">
                                     
                             </button>
                         </td>
@@ -118,7 +124,7 @@
                             30xxx xxx
                         </td>
                         <td>
-                            <input type="button" value="복귀">
+                            <input type="button" value="복귀" onclick="hideRow(this)">
                                     
                             </button>
                         </td>
