@@ -2,15 +2,18 @@
 <html>
     <head>
         <title>외 출/박 신청</title>
+        <link rel="stylesheet" href="main.css">
     </head>
     <body>
         <form action="http://localhost:8000/oo" method="post">
-            <h2 class="rq0">외출/박 신청</h2>
+            <h2 class="rq0">외출 신청</h2>
+            <div class="go-sleep">
+<span class="go" >외출</span>
+<span class="sleep" onclick="location.href='main1.html'">외박</span>
 </div>
 <input type= text class="name" required placeholder="이름">
 <input type= text class="reason" required placeholder="사유">
 <input type="text" class="during" placeholder="기간">
-<input type="checkbox" class="sleep">외박
 <input type="text" class="place" required placeholder="장소">
 <input type= submit class="submit">
         </form>
