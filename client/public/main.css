@@ -1,0 +1,77 @@
+h2{
+    font-size:  60px;
+    text-align: center;
+}
+div{
+    font-size: 40px;
+    
+    text-align: center;
+    cursor: pointer;
+}
+.go{
+    margin: 0 130px;
+    font-weight: 600;
+    font-size:60px;
+}
+.sleep{
+    margin:0 130px;
+    font-weight: 600;
+    font-size:60px;
+}
+.name{
+    margin:20px auto 20px;
+    display:block;
+    position:relative;
+    width: 700px;
+    height:50px;
+    font-size:30px;
+    text-align: left;
+    border-radius:10px;
+}
+.reason{
+    font-size:30px;
+    margin:0px auto 20px;;
+    display:block;
+    position:relative;
+    width: 700px;
+    height:50px;
+    text-align: left;
+    border-radius:10px;
+}
+.during{
+    font-size:30px;
+    margin:0px auto 20px;
+    display:block;
+    position:relative;
+    width: 700px;
+    height:50px;
+    text-align: left;
+    border-radius:10px;
+
+}
+.place{
+    font-size:30px;
+    margin:0px auto 20px;
+    display:block;
+    position:relative;
+    width: 700px;
+    height:50px;
+    text-align: left;
+    border-radius:10px;
+}
+.sleep_cbox{
+    transform: scale(3);
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.submit{
+    font-size:30px;
+    margin:50px auto;
+    display:block;
+    position:relative;
+    width: 300px;
+    border-radius: 10px;
+}
